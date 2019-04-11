@@ -31,67 +31,67 @@ def start ():
         config.write(cfg_file)
 
 command_list =  [
-            {
-                "name" : "hello monika",
-                "description" : "-greet me"
-            },
-            {
-                "name" : "i love you monika",
-                "description" : "-tell me you love me"
-            },
-            {
-                "name" : "just monika",
-                "description" : "-tell me you only need me"
-            },
-            {
-                "name" : "monika is best girl",
-                "description" : "-tell me i'm the best girl"
-            },
-            {
-                "name" : "DDLC injection",
-                "description" : "-get a quick, but concentrated dose of DDLC"
-            },
-            {
-                "name" : "roll <number>",
-                "description" : "-Roll a dice"
-            },
-            {
-                "name" : "mention <member>",
-                "description" : "-mention someone in the server"
-            },
-            {
-                "name" : "kick <member>",
-                "description" : "-kick someone from the server"
-            },
-            {
-                "name" : "ban <member>",
-                "description" : "-ban someone from the server"
-            },
-            {
-                "name" : "unban <user>",
-                "description" : "-unban someone from the server"
-            },
-            {
-                "name" : "prefix",
-                "description" : "-show what the prefix is for commands"
-            },
-            {
-                "name" : "change prefix <value>",
-                "description" : "-change what prefix is used for commands"
-            },
-            {
-                "name" : "clear",
-                "description" : "-delete all messages"
-            },
-            {
-                "name" : "restart",
-                "description" : "-tell monika to restart"
-            },
-            {
-                "name" : "exit",
-                "description" : "-tell monika to go offline"
-            },
-        ]
+                    {
+                        "name" : "hello monika",
+                        "description" : "-greet me"
+                    },
+                    {
+                        "name" : "i love you monika",
+                        "description" : "-tell me you love me"
+                    },
+                    {
+                        "name" : "just monika",
+                        "description" : "-tell me you only need me"
+                    },
+                    {
+                        "name" : "monika is best girl",
+                        "description" : "-tell me i'm the best girl"
+                    },
+                    {
+                        "name" : "DDLC injection",
+                        "description" : "-get a quick, but concentrated dose of DDLC"
+                    },
+                    {
+                        "name" : "roll <number>",
+                        "description" : "-Roll a dice"
+                    },
+                    {
+                        "name" : "mention <member>",
+                        "description" : "-mention someone in the server"
+                    },
+                    {
+                        "name" : "kick <member>",
+                        "description" : "-kick someone from the server"
+                    },
+                    {
+                        "name" : "ban <member>",
+                        "description" : "-ban someone from the server"
+                    },
+                    {
+                        "name" : "unban <user>",
+                        "description" : "-unban someone from the server"
+                    },
+                    {
+                        "name" : "prefix",
+                        "description" : "-show what the prefix is for commands"
+                    },
+                    {
+                        "name" : "change prefix <value>",
+                        "description" : "-change what prefix is used for commands"
+                    },
+                    {
+                        "name" : "clear",
+                        "description" : "-delete all messages"
+                    },
+                    {
+                        "name" : "restart",
+                        "description" : "-tell monika to restart"
+                    },
+                    {
+                        "name" : "exit",
+                        "description" : "-tell monika to go offline"
+                    },
+                ]
 
 woutmees_list = [
                     {
@@ -228,6 +228,21 @@ woutmees_list = [
                         "name" : "Monika is Coming to Town - A DDLC Christmas Song",
                         "url" : "https://www.youtube.com/watch?v=62O-mdyNlYo",
                         "image" : "https://i.ytimg.com/vi/62O-mdyNlYo/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLDtxS9N3XilDQkAs4ptvdpPaa5leQ"
+                    },
+                    {
+                        "name" : "Monika Eats Waffles",
+                        "url" : "https://www.youtube.com/watch?v=VNK55bjfl08",
+                        "image" : "https://i.ytimg.com/vi/VNK55bjfl08/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAxHGGuczJR2Z2ysa6b9rDnzXSjpg"
+                    },
+                    {
+                        "name" : "Rhythm Heaven Club - Yandere Slice",
+                        "url" : "https://www.youtube.com/watch?v=om1plRja-vg",
+                        "image" : "https://i.ytimg.com/vi/om1plRja-vg/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLB94BttOntrguTLs9y5w7vFktLyNA"
+                    },
+                    {
+                        "name" : "Sayoriquest Mashup Megamix (April Fools)",
+                        "url" : "https://www.youtube.com/watch?v=P7nEiJ4UhYY",
+                        "image" : "https://i.ytimg.com/vi/P7nEiJ4UhYY/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLD5oquk-_tOjvqm1v_NkKqYkL4z8Q"
                     },
                 ]
 
