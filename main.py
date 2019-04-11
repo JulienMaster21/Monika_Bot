@@ -13,19 +13,13 @@ path = os.path.dirname(os.path.realpath(__file__))
 config = ConfigParser()
 config.read("{}/config.ini".format(path))
 
-# lists = ConfigParser()
-# lists.read("{}/lists.ini".format(path))
-
 prefix = config.get("DEFAULT", "prefix")
-# command_list = lists.get("DEFAULT", "command_list")
-# woutmees_list = lists.get("DEFAULT", "woutmees_list")
 
 def randomNum (min, max):
     return random.randint(min, max)
 
 def start ():
     loop = asyncio.get_event_loop()
-    # client.start(config.get("DEFAULT", "token"), loop=loop)
     client.run(config.get("DEFAULT", "token"), loop=loop)
     with open("{}/config.ini".format(path), "w") as cfg_file:
         config.write(cfg_file)
@@ -287,14 +281,6 @@ async def on_message(message):
     # Show a short DDLC video
     elif message.content == "{}DDLC injection".format(prefix):
         selection = randomNum(0, len(woutmees_list) - 1)
-        #woutmees_video = discord.Embed(
-            #title = woutmees_list[selection]["name"],
-            #description = woutmees_list[selection]["url"],
-            #url = woutmees_list[selection]["url"],
-            #colour = 0xFFC0CB
-        #)
-        #woutmees_video.set_image(url = woutmees_list[selection]["image"])
-        #await client.send_message(message.channel, embed=woutmees_video)
         await client.send_message(message.channel, woutmees_list[selection]["url"])
     elif message.content.startswith("{}roll".format(prefix)):
         input = message_arguments[1]
